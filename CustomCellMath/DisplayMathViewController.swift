@@ -27,12 +27,11 @@ class DisplayMathViewController: UIViewController {
     @IBOutlet weak var bottomRightLabel: UILabel!
     
     @IBOutlet weak var operatorLabel: UILabel!
-    
-    
-    
+  
+
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         displayNumbersInCorrespondingLabels()
         updateLabelsWithOperation(+)
     }
